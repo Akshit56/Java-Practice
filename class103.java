@@ -61,9 +61,8 @@ public class class103 {
         break;
       }
     }
-    while (found == 0) {
+    if (found == 0) {
       System.out.println("Not Found");
-      break;
     }
   }
 }
